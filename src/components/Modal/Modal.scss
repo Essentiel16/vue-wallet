@@ -1,0 +1,118 @@
+.modal, .modal-two{
+    width: 496px;
+    height: 100vh;
+    background: #FFFFFF;
+    position: absolute;
+    right: 0;
+    margin-left: 245px;
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+.overlay, .overlay-two {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 2;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 32px 0 32px;
+}
+.header h3{
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #0B2253;
+}
+hr{
+    margin-top: 24px;
+}
+.transfer-form{
+    margin-top: 40px;
+    padding: 0 32px;
+}
+.transfer-form h6{
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.002em;
+color: #0B2253;
+}
+.wallet-input{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 30px;
+    //justify-content: space-between;
+}
+.wallet-input label{
+    margin-left: -12px;
+}
+label{
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.4px;
+color: #0B2253;
+margin: 0px 8px;
+}
+.input-field{
+    width: 432px;
+    margin-top: 32px;
+}
+.input-field-input2{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.input-field-input label, .input-field-input2 label{
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.4px;
+color: #6D7A98;
+padding-top: 24px;
+}
+.input-field-input input, .input-field-input2 input, .input-field-input select{
+    margin-top: 8px;
+    background: #FFFFFF;
+    border: 1px solid #DEE3EB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    padding: 12px;
+}
+input::placeholder{
+    padding: 16px;
+    color: #0B2253;
+    font-size: 12px;
+}
+input:focus{
+    padding: 12px;
+    color: #0B2253;
+    font-size: 16px;
+    border: 1px solid #1F6AEC;
+}
+.input-field-button button{ 
+    width: 432px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 48px;
+    background: #1F6AEC;
+    border-radius: 8px;
+    color: #fff;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+
+}

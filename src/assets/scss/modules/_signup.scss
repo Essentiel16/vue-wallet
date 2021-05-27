@@ -1,0 +1,156 @@
+.body{
+    background: #F4F7FC;
+}
+.wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 62px;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    max-height: 100vh;
+    // background: #F4F7FC;
+}
+.header{
+    padding-top: 80px;
+    height: 43px;
+    position: sticky;
+    // z-index: 99;
+
+}
+.content{
+    margin-top: 102px;
+    display: flex;
+    justify-content: space-between;
+    // margin-bottom: 129px;
+}
+.content-left{
+    margin-top: 30px;
+    padding-top: 20px;
+    // position: fixed;
+}
+.content-left h2{
+    font-weight: bold;
+    font-size: 46px;
+    align-items: center;
+    color: #0B2253;
+}
+.content-left p{
+    font-weight: 500;
+    font-size: 30px;
+    align-items: center;
+    color: #B3BECF;
+    margin-top: 25px;
+}
+// .content-right{
+//     max-height: calc(100vh - 43px);
+//     overflow-y: scroll;
+// }
+.form-body{
+    width: 528px;
+    background-color: #FFFFFF;
+    border: 1px solid #DEE3EB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 30px 32px 20px 32px;
+    margin: 25px 0 30px 0;
+}
+.content-form-nameinput{
+    display: flex;
+    justify-content: space-between;
+}
+.content-form-name label, .content-form-input label{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #6D7A98;
+}
+.content-form-name{
+    width: 224px;
+}
+.content-form-input{
+    position: relative;
+}
+.content-form-input span{
+    position: absolute;
+    right: 20px;
+    bottom: 34px;
+}.svg:focus{
+    outline: none;
+}
+.content-footer{
+    margin-top: 24px;
+}
+.content-footer p{
+    // font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6D7A98;
+}
+a{
+    color: #1F6AEC;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.check{
+    margin-bottom: 20px;
+}
+.error{
+    font-size: 12px;
+    font-weight: 200;
+    // color: red;
+    color: #CA1B1B;
+    padding-top: -20px;
+}
+@media screen and (max-width: 480px) {
+    .wrapper{
+        padding: 0 20px;
+        //height: 100%;
+    }
+    .header{
+        padding-top: 40px;
+    }
+    .content{
+        display: block;
+        margin-top: 60px;
+    }
+    .content-left{
+        margin-top: 20px;
+    }
+    .content-left h2{
+        font-size: 40px;
+    }
+    .content-left p{
+        margin-top: 0;
+        font-size: 20px;
+    }
+    .content-right{
+        margin-top: 20px;
+    }
+    .content-right{
+        min-width: 335px;
+    }
+    .form-body{
+        width: 100%;
+        margin-top: 40px;
+        // overflow-y: scroll;
+    }
+    .content-form-button{
+        padding: 0 20px;
+    }
+    .content-form-button button{
+        width: 258px;
+    }
+    .content-form-nameinput{
+        display: block;
+    }
+    .content-form-name{
+        width: 270px;
+    }
+    .content-form-input{
+        padding: 0 20px;
+    }
+}

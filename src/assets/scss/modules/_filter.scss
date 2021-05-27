@@ -1,0 +1,17 @@
+.input-button{
+    margin-top: 32px;
+}
+.input-button button{
+    width: 432px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 48px;
+    background: #1F6AEC;
+    border-radius: 8px;
+    color: #fff;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+}

@@ -1,0 +1,328 @@
+.container{
+    display: flex;
+    box-sizing: border-box;
+}
+.nav label{
+    font-size: 26px;
+    line-height: 70px;
+    // margin: 0 35px 0 0;
+    display: none;
+}
+#toggle{
+    display: none;
+}
+.sidenav {
+    height: 100vh;
+    min-width: 248px;
+    top: 0;
+    left: 0;
+    background-color: #0B2253;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 9;
+}
+.sidenav-logo{
+    padding-top: 23px;
+    padding-left: 35.93px;
+    display: flex;
+}
+.logo-text h6 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 6.28px;
+    color: #FFFFFF;
+    margin-top: 2px;
+}
+.menu-wrapper{
+    margin-top: 26px;
+    padding: 16px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    width: 216px;
+    height: 40px;
+    padding: 12px;
+    margin-top: 10px;
+}
+.nav-text{
+    color: #B3BECF;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 14px;
+}
+.nav-menu:hover svg path, .nav-menu:hover{
+    background: rgba(139, 149, 171, 0.24);
+    border-radius: 4px;
+    color: #fff;
+    fill: #fff;
+}
+  .main {
+    width: 100%;
+    padding: 0 30px;
+    overflow-y: auto;
+    margin-left: 248px;
+  }
+  .main-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .nav-header{
+      width: 100%;
+      height: 64px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 30px;
+  }
+  .nav-header p{
+      margin-left: 44px;
+      color:#3A434B;
+      font-size: 14px;
+      font-weight: 500;
+  }
+  .notification{
+      display: flex;
+      position: relative;
+  }
+  .popup{
+      position: absolute;
+      right: -1px;
+  }
+  .initials{
+    background: #D7DCE0;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #F4F5F6;
+    box-sizing: border-box;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    
+    color: #3a434b;
+    margin-left: 12px;
+    margin-right: 8px;
+  }
+  .sub-header{
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .sub-header-text p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0B2253;
+  }
+  .sub-header-button{
+      display: flex;
+      gap: 20px;
+      // padding-right: 30px;
+  }
+  .btn-one, .btn-two{
+      background: #fff;
+      color: #1F6AEC;
+      border: 1px solid  #1F6AEC;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 8px;
+      outline: none;
+      width: 167px;
+      height: 48px;
+  }
+  .btn-one:hover, .btn-two:hover{
+      background: #1F6AEC;
+      color: #fff;
+  }
+  .body-card{
+      display: flex;
+      margin-top: 24px;
+      align-items: center;
+      justify-content: space-evenly;
+      // padding-right: 30px;
+      // gap: 24px;
+  }
+  .card-content{
+    width: 552px;
+    height: 96px;
+    background: #FFFFFF;
+    border: 1px solid #DEE3EB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px;
+  }
+  .card-content h5{
+    font-weight: 600;
+    font-size: 24px;
+    color: #0B2253;
+  }
+  .card-content p{
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    color: #6D7A98;
+    margin-top: 8px;
+  }
+  .transaction{
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .transaction h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color:#0B2253;
+  }
+  .empty-state{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 130px;
+      margin-bottom: 50px;
+  }
+
+  
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 32px 0 32px;
+}
+.header h3{
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #0B2253;
+}
+hr{
+    margin-top: 24px;
+}
+.transfer-form{
+    margin-top: 40px;
+    padding: 0 32px;
+}
+.transfer-form h6{
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.002em;
+color: #0B2253;
+}
+.wallet-input{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 30px;
+    //justify-content: space-between;
+}
+.wallet-input label{
+    margin-left: -12px;
+}
+label{
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.4px;
+color: #0B2253;
+margin: 0px 8px;
+}
+.input-field{
+    width: 432px;
+    margin-top: 32px;
+}
+.input-field-input2{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.input-field-input label, .input-field-input2 label{
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.4px;
+color: #6D7A98;
+padding-top: 24px;
+}
+.input-field-input input, .input-field-input2 input, .input-field-input select{
+    margin-top: 8px;
+    background: #FFFFFF;
+    border: 1px solid #DEE3EB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    padding: 12px;
+}
+input::placeholder{
+    padding: 16px;
+    color: #0B2253;
+    font-size: 12px;
+    font-weight: 400;
+}
+input:focus{
+    padding: 12px;
+    color: #0B2253;
+    font-size: 16px;
+    border: 1px solid #1F6AEC;
+    font-weight: 400;
+}
+.error{
+    font-size: 12px;
+    font-weight: 200;
+    color: red;
+    // color: #CA1B1B;
+}
+@keyframes modalopen{
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+@media screen and (max-width: 480px) {
+    .nav label{
+        display: block;
+    }
+    .sidenav{
+        display: none;
+    }
+    .main{
+        margin-left: 0;
+    }
+    .sub-header{
+        display: block;
+    }
+    .sub-header-button{
+        margin-top: 20px;
+        padding-right: 0;
+    }
+    .btn-one, .btn-two{
+        font-size: 14px;
+        padding: 12px 12px;
+    }
+    .body-card{
+        display: block;
+        padding-right: 0;
+    }
+    .card-content{
+        width: auto;
+        margin-bottom: 15px;
+    }
+    .modal, .modal-two{
+        width: 320px;
+    }
+    .input-field-input, .input-field-button button{
+        width: 257px;
+    }
+    .empty-state{
+        margin-top: 60px;
+    }
+    .nav-header p{
+        display: none;
+    }
+}
